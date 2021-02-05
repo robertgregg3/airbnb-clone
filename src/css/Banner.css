@@ -2,7 +2,7 @@
   background: url("../images/image1.jpg");
   height: 50vh;
   position: relative;
-  object-fit: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   margin-bottom: 20px;
