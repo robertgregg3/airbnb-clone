@@ -1,0 +1,45 @@
+.banner {
+  background: url("../images/image1.jpg");
+  height: 50vh;
+  position: relative;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.banner__info {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 25vh 50px 50px 40px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: #fff;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__search > .MuiButton-root,
+.banner__search > .MuiButton-root:hover {
+  background-color: #fff;
+  color: #ff7779;
+  font-weight: 700;
+  text-transform: inherit;
+}

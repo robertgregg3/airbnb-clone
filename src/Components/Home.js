@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/Home.css";
-import Header from "./Header";
+import Banner from "./Banner";
 
 function Home() {
   return (
     <div className="home">
-      <Header />
+      <Banner />
     </div>
   );
 }
